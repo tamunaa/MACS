@@ -1,0 +1,121 @@
+.navbar-nav li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar{
+    margin-bottom: 10px;
+}
+
+.animated-bg {
+    background-image: linear-gradient(45deg, rgba(96, 240, 211, 0.12), rgba(120, 107, 223, 0.33), rgba(255, 117, 234, 0.08));
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0%, 100% { background-position: 0 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+/* Custom Font and Styles */
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #131326;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-item .nav-link i {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #1010e4;
+}
+
+.custom-input {
+    border: 2px solid #b5cee2;
+    border-radius: 25px;
+    /*padding: 5px 15px;*/
+    transition: border-color 0.3s ease;
+}
+
+.custom-input:focus {
+    border-color: rgba(118, 129, 221, 0.52);
+    box-shadow: 0 0 5px rgb(200, 182, 180);
+}
+
+.custom-btn {
+    color: black;
+    color-scheme: dark;
+    background-color: rgb(244, 239, 239);
+    margin: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.notification-icon {
+    right: -280px;
+    font-size: 24px;
+    color: #3b5998;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.message-icon{
+    font-size: 24px;
+    color: #3b5998;
+    margin: 10px;
+}
+
+.log-out{
+    font-size: 24px;
+    color: rgb(48, 4, 50);
+    margin: 10px;
+}
+
+.notification-wrapper {
+    display: inline-block;
+}
+
+.notification-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+}
+
+.notification {
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;
+    color: #333;
+}
+
+.notification:hover {
+    background-color: #f2f2f2;
+}
+
+.star {
+    /* Add your regular star icon styles here */
+    color: white;
+}
+
+.star.filled {
+    /* Add your filled star icon styles here */
+    color: yellow;
+}
+
+.homeButton{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}

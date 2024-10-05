@@ -1,0 +1,25 @@
+{
+  "name": "blockchain-technologies-assignment-3",
+  "version": "1.0.0",
+  "description": "In this assignment, you will be implementing a decentralized version of Splitwise. As you might know [Splitwise](https://www.splitwise.com/) is a platform for keeping track of shared expenses between groups of people - we will be doing exactly that, but balances will be tracked and managed on an Ethereum blockchain!\\ You will have to implement smart contract for tracking user balances, as well as sort of a client library designed to communicate with the blockchain and provide users an Enhanced interface of a contract.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rezga12/blockchain-technologies-assignment-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rezga12/blockchain-technologies-assignment-3/issues"
+  },
+  "homepage": "https://github.com/Rezga12/blockchain-technologies-assignment-3#readme",
+  "dependencies": {
+    "ethers": "^6.8.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "web3": "^4.4.0"
+  }
+}

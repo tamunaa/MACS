@@ -1,0 +1,43 @@
+/* gradingFinished.css */
+
+/* Set default font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the content */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 100px 20px 20px; /* Increased top margin */
+}
+
+/* Style the frame */
+.frame {
+    border: 2px solid #007bff;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}

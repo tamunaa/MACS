@@ -1,0 +1,204 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.profile-card {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+.profile-header {
+    background-color: rgba(34, 50, 106, 0.96);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-info {
+    padding: 20px;
+    text-align: center;
+}
+.profile-actions {
+    padding: 20px;
+    text-align: center;
+}
+.custom-btn2 {
+    background-color: rgba(56, 83, 178, 0.88);
+    color: white;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-btn2:hover {
+    background-color: #74b6eb;
+    color: #fff;
+}
+.friends-list {
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.friend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+.friend-name {
+    font-weight: bold;
+}
+
+/* Add your custom styles here */
+.profile-section {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.profile-card {
+    background-color: rgba(254, 250, 254, 0.62);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.profile--card {
+    border: 1px solid rgba(218, 218, 220, 0.52);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: radial-gradient(circle, #fcfcfc, rgba(224, 229, 234, 0.53));
+
+}
+
+
+.profile-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.profile-card ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.profile-card li {
+    margin-bottom: 5px;
+}
+
+.profile-card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.profile-card a:hover {
+    text-decoration: underline;
+}
+
+.edit-icon {
+    cursor: pointer;
+    color: #fefcfc;
+    margin-left: 10px;
+}
+
+/* Add styling for the edit window */
+.edit-window {
+    font-family: 'Quicksand', sans-serif;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    background-color: white;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.update-button{
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+}
+
+/* Style for the profile section */
+.profile-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+/* Style for the profile card */
+.profile-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the heading */
+.profile-card h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.custom-link-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.custom-link-list li {
+    margin: 10px 0;
+}
+
+.custom-link-list a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.custom-link-list a:hover {
+    color: #f00;
+    border-bottom-color: #f00;
+}
+
+.change-button{
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+#achievements{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.grade-icon{
+    margin: 20px;
+    border-radius: 50%;
+}
+

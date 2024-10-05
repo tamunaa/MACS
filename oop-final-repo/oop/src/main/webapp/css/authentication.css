@@ -1,0 +1,112 @@
+body {
+    font-family: "Droid Sans Mono Slashed", Serif, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(147, 91, 161, 0.33);
+
+}
+
+.signin-container {
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Add this line to center align content */
+}
+
+.signin-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signin-header img {
+    max-width: 100px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: center; /* Add this line to center align content */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%; /* Change the width to 100% */
+    max-width: 350px; /* Add max-width for better readability */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signin-button {
+    display: block;
+    width: 100%; /* Change the width to 100% */
+    max-width: 300px; /* Add max-width for better readability */
+    padding: 10px;
+    margin: 30px auto;
+    background-color: #1028cb;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.signin-button:hover {
+    background-color: #2664ca;
+}
+
+.new-to-natureconnect {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.join-link {
+    color: #0f36c8;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 2px;
+    border: 1px solid #928787;
+}
+
+/* ... your existing styles ... */
+.input-icon {
+    position: relative;
+}
+
+.input-icon input {
+    padding-right: 40px; /* Provide space for the icon and toggle button */
+}
+
+.input-icon i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.input-icon .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.toggle-password i {
+    color: #aaa;
+}
+
+.toggle-password:hover i {
+    color: #666;
+}

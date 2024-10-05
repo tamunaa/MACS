@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "node",
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "typescript": "^4.6.3"
+  },
+  "exclude": ["node_modules"]
+}

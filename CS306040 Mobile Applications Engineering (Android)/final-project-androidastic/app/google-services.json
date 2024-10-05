@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "firebase_url": "https://forum-like-application-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_number": "427760656686",
+    "project_id": "forum-like-application",
+    "storage_bucket": "forum-like-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427760656686:android:413667df240f07b8e85abf",
+        "android_client_info": {
+          "package_name": "ge.edu.freeuni.forum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427760656686-1lnujt81it2nspf3c325hj2nr18oo0cn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ge.edu.freeuni.forum",
+            "certificate_hash": "5b5ba6194b3d474942c1f399142b4f51a9cc7e88"
+          }
+        },
+        {
+          "client_id": "427760656686-66j2o5q7pmtse2j4vuib0bhfidpbc2rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5O-PHqnEPHETSrblaY28BgtOLikNCip4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427760656686-66j2o5q7pmtse2j4vuib0bhfidpbc2rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

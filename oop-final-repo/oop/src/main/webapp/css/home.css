@@ -1,0 +1,46 @@
+html, body {
+    height: 100%; /* Set the height to 100% of the viewport */
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.feed-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.feed-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.feed-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.feed-item a:hover {
+    text-decoration: underline;
+}
+
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.event-time {
+    color: #6c757d;
+    margin-left: auto;
+}

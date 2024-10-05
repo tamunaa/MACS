@@ -1,0 +1,83 @@
+body {
+    font-family: "Droid Sans Mono Slashed", Serif, serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.finish {
+    padding: 10px 20px;
+    background-color: #00418b;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    width: 10%;
+    margin: 10px auto;
+}
+
+.finish:hover {
+    background-color: rgba(36, 130, 226, 0.87);
+    transform: scale(1.05);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh; /* Assuming you want the form to take full viewport height */
+    font-size: 30px;
+    justify-content: flex-start;
+}
+
+.user-answer {
+    margin-bottom: 10%;
+}
+.user-answer input{
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 4px;
+    background-color: #f1f1f1;
+    border: 1px solid #050476;
+    transition: border-color 0.3s ease-in-out;
+    margin: 10px;
+}
+
+
+.user-answer input:focus{
+    outline: none;
+    border: 2px dotted #6765ce;
+}
+
+.question-space{
+    margin: auto;
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.question-card {
+    /*font-family: "Droid Sans Mono Slashed", Serif, serif;*/
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(237, 237, 237, 0.64);
+    width: 99%;
+    margin: 20px auto;
+    border: 2px dashed #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+p{
+    font-style: italic;
+    color: #1a1a56;
+}

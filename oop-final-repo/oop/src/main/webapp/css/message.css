@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#messagediv {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    border-width: 10px;
+    border-color: #131326;
+
+}
+
+.message-container {
+    display: flex;
+    height: 80vh;
+    width: 100vh;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 20px;
+    border-radius: 20px;
+}
+
+.user-list {
+    width: 250px;
+    background-color: rgba(204, 210, 242, 0.67);
+    padding: 10px;
+    overflow-y: auto;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.user {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+}
+
+.user.active {
+    background-color: #ccc;
+}
+
+.chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(55, 58, 167, 0.45);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: 1px solid rgba(179, 17, 212, 0.53);
+}
+
+.chat-header {
+    margin-bottom: 10px;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-x: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    width: 98%;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+
+#message-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+#send-button {
+    margin-left: 10px;
+    background-color: #278cf8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#send-button:hover {
+    background-color: #59bdff;
+}
+
+.message p{
+    color: black;
+}
+
+
+/* Add these styles to your CSS file */
+.message {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.message-right {
+    background-color: #dcf8c6; /* Light green for messages sent by you */
+    text-align: right;
+}
+
+.message-left {
+    background-color: #f0f0f0; /* Light gray for messages sent by others */
+    text-align: left;
+}
+

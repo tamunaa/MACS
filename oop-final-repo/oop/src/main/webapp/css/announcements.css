@@ -1,0 +1,28 @@
+.feed {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.announcement {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.announcement h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.announcement p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.announcement .timestamp {
+    color: #888;
+    font-size: 14px;
+}

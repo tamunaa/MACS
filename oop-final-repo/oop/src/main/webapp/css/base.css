@@ -1,0 +1,26 @@
+html, body {
+    height: 100%; /* Set the height to 100% of the viewport */
+    width: 90%;
+    background-color: rgba(180, 225, 237, 0.12);
+}
+#page{
+    background: rgba(255, 247, 230, 0.24);
+}
+#wrapper{
+    background-color: rgba(203, 157, 241, 0.15);
+}
+
+body, head {
+    display: flex; /* Use flexbox for layout */
+    font-family: Times New Roman, sans-serif, "Inter Semi Bold";
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+    height: 100%;
+    width: 80%;
+}

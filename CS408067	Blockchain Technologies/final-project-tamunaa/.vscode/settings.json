@@ -1,0 +1,8 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./programs/nft-marketplace/Cargo.toml",
+        "./programs/nft-marketplace/Cargo.toml",
+        "./programs/nft-marketplace/Cargo.toml",
+        "./programs/nft-marketplace/Cargo.toml"
+    ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/app/repositories/product_repository.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/repositories/receipt_repository.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/repositories/sales_repository.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/repositories/unit_repository.py" dialect="GenericSQL" />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yesButtonColor">#E915C75C</color>
+    <color name="noButtonColor">#DCF14E39</color>
+    <color name="primaryColor">#530946</color>
+    <color name="secondaryColor">#9D85DC</color>
+    <color name="selectedColor">#6285B0</color>
+    <color name="backgroundColor">#A8C7C3C6</color>
+</resources>

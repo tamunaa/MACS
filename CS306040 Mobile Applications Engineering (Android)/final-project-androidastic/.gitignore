@@ -1,0 +1,33 @@
+# Ignore Gradle build output directories
+/build/
+/app/build/
+
+# Ignore local IDE configuration
+/.idea/
+/.gradle/
+
+# Ignore local properties and settings
+/local.properties
+
+# Ignore Gradle wrapper files that may contain system-specific paths
+/gradle/wrapper/gradle-wrapper.jar
+
+# Ignore generated wrapper files (Gradle)
+.gradle/
+
+# Ignore Android Studio-generated files
+/.cxx/
+/captures/
+/.externalNativeBuild/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore specific test files/folders if required (optional)
+**/test-results/
+
+# Ignore other unnecessary files (backup files, logs, etc.)
+*.log
+*.iml
+*.class

@@ -1,0 +1,61 @@
+#options-container {
+    margin-bottom: 20px;
+}
+
+.left {
+    float: left;
+    color: #FF5733;
+    font-weight: bold;
+    margin-right: 10px;
+    /*margin-right: 10px;*/
+}
+
+.right {
+    float: right;
+    color: #33FF57;
+    font-weight: bold;
+}
+
+.input-group {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.input-group input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /*margin-right: 10px;*/
+    text-align: left;
+}
+
+.input-group input.right[type="text"] {
+    text-align: right;
+}
+
+#add-field {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-field:hover {
+    background-color: #0056b3;
+}
+
+.input-group button {
+    background-color: #ff4f4f;
+    flex: 0.1;
+    padding: 5px;
+    margin-left: 1px;
+    margin-right: 10px;
+}
+
+.input-group button:hover {
+    background-color: red;
+}

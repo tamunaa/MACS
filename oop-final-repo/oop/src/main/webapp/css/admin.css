@@ -1,0 +1,60 @@
+header{
+    font-size: 40px;
+    font-family: 'Montserrat', "Droid Sans Mono Slashed", SansSerif, Saab, serif;
+}
+.admin-section {
+    background: white;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    max-height: 300px;
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Montserrat', "Droid Sans Mono Slashed", SansSerif, Saab, serif;
+    color: darkblue;
+}
+
+.quizzes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.quizzes-table th, .quizzes-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.quizzes-table{
+    color: #830b75;
+    min-height: 40%;
+}
+
+.fa-trash-alt {
+    color: #12213d;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.fa-trash-alt:hover {
+    color: #501369;
+}
+
+.quizzes-table tbody tr:hover {
+    background-color: #dbd8da;
+}
+
+.go-back{
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.trash{
+    display: flex;
+    border: none;
+    background: none;
+}
